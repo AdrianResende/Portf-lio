@@ -70,7 +70,7 @@ html{
 /*  Home   inicio  */
 .home{
     display: flex;
-    background: url(image/banner.png) no-repeat;
+    background-color: #111;
     background-size: cover;
     height: 100vh;
     color: #fff;
