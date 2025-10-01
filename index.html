@@ -4,8 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio | Adrian</title>
-
+    <meta name="description" content="Portfólio de Adrian Resende - Desenvolvedor Front-end especializado em React, JavaScript, HTML e CSS" />
+    <meta name="keywords" content="desenvolvedor, frontend, react, javascript, html, css, portfolio" />
+    <meta name="author" content="Adrian Resende" />
+    <title>Adrian Resende | Desenvolvedor Front-end</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -18,9 +29,10 @@
           <a href="#">Port<span>fólio</span></a>
         </div>
         <ul class="menu">
-          <li><a href="#home">Inicio</a></li>
-          <li><a href="#services">Projetos</a></li>
-          <li><a href="#skills">Especialidade</a></li>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#skills">Habilidades</a></li>
           <li><a href="#contact">Contato</a></li>
         </ul>
         <div class="menu-btn">
@@ -33,21 +45,105 @@
     <section class="home" id="home">
       <div class="max-width">
         <div class="home-content">
-          <div class="text-1">Olá, meu nome é</div>
+          <div class="text-1">👋 Olá, meu nome é</div>
           <div class="text-2">Adrian Resende</div>
-          <div class="text-3">eu sou <span class="typing"></span></div>
+          <div class="text-3">Sou <span class="typing"></span></div>
+          <p class="description">Desenvolvedor Front-end com experiência profissional em Vue.js, apaixonado por criar experiências digitais incríveis e funcionais.</p>
+          <div class="home-buttons">
+            <a href="#about" class="btn-primary">Conhecer mais</a>
+            <a href="#contact" class="btn-secondary">Entre em contato</a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/AdrianResende" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://linkedin.com/in/adrian-resende" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="mailto:adrianresende147@gmail.com" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </div>
+        </div>
+        <div class="home-image">
+          <div class="profile-card">
+            <div class="profile-img">
+              <div class="avatar">👨‍💻</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="services" id="services">
+    <!-- Seção Sobre -->
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title">Sobre Mim</h2>
+        <div class="about-content">
+          <div class="column left">
+            <div class="about-card">
+              <div class="card-icon">🚀</div>
+              <h3>Desenvolvedor Front-end</h3>
+              <p>Especializado em criar interfaces modernas e responsivas com foco na experiência do usuário.</p>
+            </div>
+          </div>
+          <div class="column right">
+            <div class="text">
+              <h3>Olá! Sou Adrian Resende</h3>
+              <p>Desenvolvedor Front-end com experiência profissional adquirida em dois estágios, especializado em Vue.js e tecnologias modernas. Tenho paixão por tecnologia e inovação, sempre buscando as melhores práticas de desenvolvimento.</p>
+              
+              <div class="stats">
+                <div class="stat-item">
+                  <span class="stat-number">20+</span>
+                  <span class="stat-label">Projetos</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">2</span>
+                  <span class="stat-label">Estágios</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">100%</span>
+                  <span class="stat-label">Dedicação</span>
+                </div>
+              </div>
+              
+              <p>Com experiência profissional em desenvolvimento Vue.js, sempre busco novos desafios e oportunidades para crescer profissionalmente, focando em entregar soluções de qualidade que agregam valor aos negócios.</p>
+              
+              <div class="experience-section">
+                <h4>💼 Experiência Profissional</h4>
+                <div class="experience-item">
+                  <span class="experience-title">Estágio em Desenvolvimento Front-end na InfinteCloud</span>
+                  <span class="experience-tech">Vue.js • JavaScript • CSS</span>
+                  <p class="experience-desc">Desenvolvimento de aplicações web com Vue.js, implementação de componentes reutilizáveis e integração com APIs.</p>
+                </div>
+                <div class="experience-item">
+                  <span class="experience-title">Estágio em Desenvolvimento Front-end na Prodemge</span>
+                  <span class="experience-tech">Vue.js • Vuex • Frontend</span>
+                  <p class="experience-desc">Participação em projetos profissionais utilizando Vue.js e ferramentas modernas de desenvolvimento.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="projects">
       <div class="max-width">
           <h2 class="title">Projetos</h2>
           <div class="serv-content">
             <div class="card">
               <div class="box">
+               <div class="text">🏢 Sistema Vue.js - Estágio </div>
+                    <P class="text2">Aplicação profissional desenvolvida durante estágio, utilizando Vue.js com arquitetura moderna, Vuex para gerenciamento de estado e componentização avançada.
+                    </P>
+                <a href="#" class="ver"><b>PROJETO PROFISSIONAL</b></a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
                <div class="text">DevLink</div>
-                    <P class="text2">Site de links, onde você pode criar seu própio
+                    <P class="text2">Site de links, onde você pode criar seu próprio
                       link personalizado. Feito em HTML , CSS , ReactJS e FireBase.
                     </P>
                 <a href="https://adrianlinks.netlify.app"  target="_blank" class="ver"><b>VISUALIZAR PROJETO</b></a>
@@ -55,8 +151,8 @@
             </div>
             <div class="card">
               <div class="box">
-               <div class="text">AdrianFLix</div>
-               <p class="text2">Projeto de filmes usando a API do TMDB. Feito em HTML , CSS e ReactJS</p>
+               <div class="text">AdrianFlix</div>
+               <p class="text2">Projeto de filmes usando a API do TMDB. Desenvolvido com Vue.js, CSS moderno e integração com APIs externas.</p>
                 <a class="ver" href="https://adrian-flix.netlify.app/" target="_blank"><b>VISUALIZAR PROJETO</b></a>
               </div>
             </div>
@@ -133,43 +229,66 @@
         <h2 class="title">Especialidades</h2>
         <div class="skills-content">
           <div class="column left">
-            <div class="text">Certificados de cursos concluídos</div>
-            <div>
+            <div class="text">Certificados & Formação</div>
+            <div class="tech-icons">
               <ion-icon name="logo-html5" size="large"></ion-icon>
               <ion-icon name="logo-css3" size="large"></ion-icon>
               <ion-icon name="logo-javascript" size="large"></ion-icon>
+              <ion-icon name="logo-vue" size="large"></ion-icon>
               <ion-icon name="logo-react" size="large"></ion-icon>
             </div>
-            <a href="https://cursos.alura.com.br/user/adrianresende147" target="_blank">Certificados</a>
+            <a href="https://cursos.alura.com.br/user/adrianresende147" target="_blank">Ver Certificados</a>
           </div>
           <div class="column right">
-            <div class="bars">
-              <div class="info">
-                <span>HTML</span>
-                <span>90%</span>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">🔧 Vue.js</span>
+                <span class="skill-level">Experiência Profissional</span>
               </div>
-              <div class="line html"></div>
+              <p class="skill-description">Desenvolvimento de SPAs, componentes reutilizáveis, Vuex para estado global, Vue Router</p>
             </div>
-            <div class="bars">
-              <div class="info">
-                <span>CSS</span>
-                <span>85%</span>
+            
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">🎨 HTML & CSS</span>
+                <span class="skill-level">Avançado</span>
               </div>
-              <div class="line css"></div>
+              <p class="skill-description">Semantic HTML5, CSS Grid, Flexbox, SASS, responsividade, animações CSS</p>
             </div>
-            <div class="bars">
-              <div class="info">
-                <span>JavaScript</span>
-                <span>70%</span>
+            
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">⚡ JavaScript</span>
+                <span class="skill-level">Intermediário+</span>
               </div>
-              <div class="line js"></div>
+              <p class="skill-description">ES6+, DOM manipulation, APIs REST, async/await, módulos, webpack</p>
             </div>
-            <div class="bars">
-              <div class="info">
-                <span>ReactJS</span>
-                <span>70%</span>
+            
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">⚛️ React</span>
+                <span class="skill-level">Intermediário</span>
               </div>
-              <div class="line php"></div>
+              <p class="skill-description">Hooks, components funcionais, estado local, consumo de APIs</p>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">🛠️ Ferramentas</span>
+                <span class="skill-level">Profissional</span>
+              </div>
+              <p class="skill-description">Git, GitHub, VS Code, NPM, Firebase, Netlify, Vercel</p>
+            </div>
+            
+            <div class="achievements">
+              <h4>🏆 Realizações Práticas</h4>
+              <ul class="achievement-list">
+                <li>✅ Desenvolveu aplicações Vue.js em ambiente profissional</li>
+                <li>✅ Criou +20 projetos web funcionais</li>
+                <li>✅ Implementou consumo de APIs REST</li>
+                <li>✅ Desenvolveu interfaces responsivas</li>
+                <li>✅ Trabalhou com controle de versão Git</li>
+              </ul>
             </div>
           </div>
         </div>
